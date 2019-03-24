@@ -2,6 +2,6 @@ new_array[]
 
 def square_array(array)
   array.each do |n|
-    n ** 2
+    new_array << n ** 2
   end
 end
